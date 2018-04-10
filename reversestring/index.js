@@ -6,18 +6,7 @@
 //   reverse('hello') === 'olleh'
 //   reverse('Greetings!') === '!sgniteerG'
 
-// function reverse(str) {
-//   return str.split('').reduce((rev, char) => char + rev, '');
-// }
-
-// module.exports = reverse;
-
-// function reverse(str) {
-//   return str
-//     .split('')
-//     .reverse()
-//     .join('');
-// }
+// Solution 1
 
 function reverse(str) {
   
@@ -33,4 +22,24 @@ function reverse(str) {
 }
 
 reverse('apple');
+
+module.exports = reverse;
+
+// Solution 2
+
+// function reverse(str) {
+//   return str.split('').reduce((rev, char) => char + rev, '');
+// }
+
+// Solution 3
+
+
+// function reverse(str) {
+//   return str
+//     .split('')
+//     .reverse()
+//     .join('');
+// }
+
+
 
